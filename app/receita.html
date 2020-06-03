@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="estilo.css">
+            <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Jost:wght@500&family=Montserrat&family=Prompt:wght@500&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/53939a9459.js" crossorigin="anonymous"></script>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Pacifico&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+            <title>Nome receita</title>
+        </head>
+    
+        <body>
+            <header class="header">
+                <a href="index.html"><img src="imagens/logocc.png"></a>
+    
+                <div class="container_nav">
+                    <input type="checkbox" id="menuToggle">
+                    <label for="menuToggle" class="menu-icon">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-times-circle"></i>
+                    </label>
+    
+                    <nav class="nav menu1">
+                        <a class="nav1 nav-link" href="conta.html"><i class="fa fa-user-alt"></i></a>
+                        
+                        <div class=" central"><p><a class="nav-link" href="registrar.html">Registre-se ou</a><a class="navp1 "  href="login.html">entre em sua conta</a></p></div>
+                        <div class="separar"><br></div>
+                        <div class="center">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Receita/Ingredientes" aria-label="Search">
+                                <button class="pesquisa btn my-2 my-sm-0" type="submit">Pesquisar</button>
+                            </form>
+                        </div>
+                        <a class="nav-link" href="favoritos.html">Favoritos</a>
+                        <a class="nav-link" href="categorias.html">Categorias</a>
+                        <a class="nav-link" href="ingredientes.html">Ingredientes</a>
+                        <a class="nav-link" href="cadastrar.html">Envie sua receita</a>
+                        <a class="nav-link" href="forum.html">Fórum</a>
+                     </nav>
+                     </div>
+            </header> 
+            <main> 
+                <div class=" corpo">
+                    <h2 class="maisAcessadas h6Receita">Nome da receita</h2>
+                    <div class="maisAcessadas infosPrincipais">
+                        <div class="imagemReceita"><img src="https://i.picsum.photos/id/429/300/300.jpg" alt="" class=""></div>
+                        <p class="descricaoReceita">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum doloremque asperiores facere pariatur earum vitae in commodi? Deserunt, maiores.</p>
+                    </div>
+                    <div class="receitaUtensilios">
+                        <h2 class="maisAcessadas h6Receita">Utensílios</h2>
+                        <hr class="divisaoReceita">
+                        <div>
+                            <ul class="listasUtensilios">
+                                <label class="labelLista"><input class="checkLista" type="checkbox">Utensílio 1</label>
+                                <label class="labelLista"><input class="checkLista" type="checkbox">Utensílio 2</label>
+                                <label class="labelLista"><input class="checkLista" type="checkbox">Utensílio 3</label>
+                                <label class="labelLista"><input class="checkLista" type="checkbox">Utensílio 4</label>
+                            </ul>
+                        </div>
+                        <hr>
+                        <a class="senha" href="receitaIngredientes.html"><button class="criarConta">Ver ingredientes</button></a>
+                    </div>
+                </div>
+            </main>
+        </body>
+    </html>
